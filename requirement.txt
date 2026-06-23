@@ -1,5 +1,5 @@
-python-telegram-bot==21.5
-yt-dlp==2025.03.31
+python-telegram-bot==20.8
+yt-dlp==2024.11.4
 requests==2.32.3
 Pillow==10.4.0
 python-dotenv==1.0.0

@@ -1,12 +1,9 @@
 {
   "build": {
     "builder": "NIXPACKS",
-    "buildCommand": "apt-get update && apt-get install python3 python3-pip ffmpeg -y && python3 -m pip install python-telegram-bot==20.8 yt-dlp requests Pillow python-dotenv loguru aiohttp",
-    "nixpacks": {
-      "aptPackages": ["ffmpeg"]
-    }
+    "buildCommand": "pip install -r requirements.txt"
   },
   "deploy": {
-    "startCommand": "python3 bot.py"
+    "startCommand": "python bot.py"
   }
 }

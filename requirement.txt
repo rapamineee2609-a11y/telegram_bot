@@ -1,0 +1,10 @@
+# ====================== BOT TELEGRAM DOWNLOADER ======================
+# Semua dependensi dengan versi fix untuk stabilitas maksimal
+
+python-telegram-bot==21.5
+yt-dlp==2025.03.31
+requests==2.32.3
+Pillow==10.4.0
+python-dotenv==1.0.0
+loguru==0.7.3
+aiohttp==3.11.11
